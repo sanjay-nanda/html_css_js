@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.upper-nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid;
+    align-items: center;
+    padding: 10px;
+}
+
+button {
+    height: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    width: 5rem;
+} 
+
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border-right: 3px solid;
+}
+
+.pf-input {
+    margin-top: 30px;
+    margin-bottom: 7px;
+    width: 90%;
+    display: block;
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
